@@ -78,20 +78,3 @@ class _TaskItemState extends State<TaskItem> {
     );
   }
 }
-
-// class TaskItem extends StatelessWidget {
-//   final String label;
-//   bool? _value = false;
-
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Row(children: [
-//       Checkbox(
-//         value: _value,
-//         onChanged: (newVal) => _value = newVal,
-//         ),
-//       Text(label),
-//     ],);
-//   }
-// }
